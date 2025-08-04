@@ -1,5 +1,6 @@
 # Anna's Archive MCP Server (and CLI Tool)
 
+[![smithery badge](https://smithery.ai/badge/@codacy20/annas-mcp)](https://smithery.ai/server/@codacy20/annas-mcp)
 [An MCP server](https://modelcontextprotocol.io/introduction) and CLI tool for searching and downloading documents from [Anna's Archive](https://annas-archive.org)
 
 > [!NOTE]
@@ -28,6 +29,15 @@ The environment should contain two variables:
 
 ## Setup
 
+### Installing via Smithery
+
+To install annas-mcp for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@codacy20/annas-mcp):
+
+```bash
+npx -y @smithery/cli install @codacy20/annas-mcp --client mcp
+```
+
+### Installing Manually
 Download the appropriate binary from [the GitHub Releases section](https://github.com/iosifache/annas-mcp/releases).
 
 If you plan to use the tool for its MCP server functionality, you need to integrate it into your MCP client. If you are using Claude Desktop, please consider the following example configuration:
